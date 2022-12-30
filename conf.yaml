@@ -1,0 +1,8 @@
+Content-Type: application/json
+App-Token: <App-Token>
+Session-Token: <Session-Token>
+Authorization: <Authorization>
+Url-Api-Glpi: <Url-Api-Glpi>
+Url-Api-Prtg: <Url-Api-Prtg>
+Check-Interval: 600
+Retry-Interval: 60
