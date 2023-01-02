@@ -1,10 +1,10 @@
 import pgint, time, yaml, datetime
 
-with open('conf.yaml','r') as file:
+with open('/home/pgInt/conf.yaml','r') as file:
     conf = yaml.full_load(file)
 
 def infoLog(message):
-    with open('info.log','a') as file:
+    with open('/home/pgInt/info.log','a') as file:
         file.write(datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')+" ----- "+message+"\n")
 
 pgint = pgint.PgInt(conf)
